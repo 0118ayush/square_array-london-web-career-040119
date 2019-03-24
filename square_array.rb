@@ -1,7 +1,7 @@
 def square_array(numbers)
   newarray = []
   
-  numbers.each |x| do 
+  numbers.each do |x|
     sqrd = x**2
     newarray.push(sqrd)
   end 
